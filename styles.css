@@ -1,0 +1,115 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    
+}
+
+
+#wel { /*styles for the welcome header*/
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    text-align: center;
+    top: 10%;
+    left: 10%;
+    font-style: italic;
+    color: white ;
+}
+.r_half { /*styles for the right half*/
+   
+    background-image: url('IMG_7159.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 50%;
+    position: relative;
+    
+    float: right;
+    
+}
+
+
+input { /*styles for the input*/
+    width: auto;
+    border-radius: 70px;
+    padding: 5px;
+    border-color: green;
+    border-width: thin;
+}
+.L_half {/*styles for the left half*/
+    height: 100vh;
+    width: 50%;
+    background-image: url('IMG_7160.jpg') ;
+    float: left;
+   
+}
+#lg {
+    position: absolute;
+    text-align: center;
+    top: 20%;
+    left: 40%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:white;
+    font-size: 28;
+}
+label { /*styles for the label*/
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+input:hover { /*styles for the input hover*/
+    background-color:turquoise;
+}
+button { /*styles for the button*/
+    background-color: turquoise;
+    border-width: thin;
+    border-radius: 70px;
+    padding: 5px;
+}
+button:hover { /*styles for the button hover*/
+    background-color:turquoise;
+}
+#pt { /*styles for the paragraph of the sing up*/
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.signUp{ /*styles for the sign Up class*/
+    border: 5px solid rgb(17, 0, 255);
+    background-color: rgba(245, 245, 245, 0.842);
+    opacity: 0.8;
+    width: 30%;
+    text-align: center;
+    top: 20%;
+    left: 40%;
+    padding: 20px;
+    position: relative;
+    border-radius: 70px;
+    border-width: thin;
+    
+}
+#signUp_bd { /*styles for the sign Up body*/
+    background-image: url('IMG_7159.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#n_email,#n_pass,#conf_pass { /*styles for the labels of the sign up page*/
+    color: #000;
+}
+
+.Login{ /*styles for login container*/
+    border: 5px solid rgb(17, 0, 255);
+    background-color:rgb(186, 208, 214);
+    opacity: 0.8;
+    width: 50%;
+    text-align: center;
+    top: 20%;
+    left: 30%;
+    padding: 20px;
+    position: relative;
+    border-radius: 70px;
+    border-width: thin;
+    
+}
+#E_mail,#pd,#pt { /*styles for the labels login email, password and the paragraphs*/
+    color:black;
+}
